@@ -15,6 +15,9 @@ export default defineNuxtConfig({
   },
   build: {
     transpile: ["@iconify/vue"],
+    rollupOptions: {
+      external: ["@headlessui/vue"],
+    },
   },
   content: {},
   apollo: {
