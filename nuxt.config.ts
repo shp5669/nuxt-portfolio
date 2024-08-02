@@ -13,12 +13,7 @@ export default defineNuxtConfig({
   runtimeConfig: {
     githubToken: process.env.GITHUB_TOKEN,
   },
-  build: {
-    transpile: ["@iconify/vue"],
-    rollupOptions: {
-      external: ["@headlessui/vue"],
-    },
-  },
+
   content: {},
   apollo: {
     clients: {
