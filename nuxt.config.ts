@@ -14,8 +14,12 @@ export default defineNuxtConfig({
     githubToken: process.env.GITHUB_TOKEN,
   },
   build: {
-    rollupOptions: {
-      external: ["@headlessui/vue"],
+    vite: {
+      build: {
+        rollupOptions: {
+          external: ["@headlessui/vue"], // Add @headlessui/vue to the external dependencies
+        },
+      },
     },
   },
   content: {},
