@@ -1,4 +1,5 @@
 import { defineNuxtConfig } from "nuxt/config";
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   compatibilityDate: "2024-04-03",
@@ -17,7 +18,7 @@ export default defineNuxtConfig({
     vite: {
       build: {
         rollupOptions: {
-          external: ["@headlessui/vue"], // Add @headlessui/vue to the external dependencies
+          external: ["@headlessui/vue"], // Ensure @headlessui/vue is external
         },
       },
     },
