@@ -15,12 +15,12 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
     <div class="md:w-3/4">
       <h2 class="text-3xl font-bold mt-8">My Story</h2>
       <p class="text-lg py-4 text-gray-700">
-        I am an IT Graduate from the University of Technology Sydney,
-        specializing in MERN stack development. With a solid foundation in web
-        application creation and seamless system integration, I thrive on the
-        cutting edge of software development. Fluent in multiple programming
-        languages, I'm eager to dive into innovative projects and make a
-        significant contribution!
+        I am an IT graduate from the University of Technology Sydney with a
+        specialization in front-end development. My expertise lies in web
+        application creation and seamless system integration, allowing me to
+        thrive on the cutting edge of software development. Fluent in multiple
+        programming languages, I am passionate about diving into innovative
+        projects, solving problems creatively, and delivering robust solutions.
       </p>
       <p class="text-lg py-4 text-gray-700">
         Professionally, I’ve contributed to various innovative projects with a
