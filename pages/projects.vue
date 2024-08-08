@@ -30,7 +30,7 @@ const { data } = await useAsyncQuery(query);
 
 <template>
   <h1 class="text-3xl my-8">Projects</h1>
-  <p class="text-lg mb-8">Here are some of my projects on GitHub.</p>
+  <p class="text-lg mb-8 italic">Here are some of my projects on GitHub.</p>
   <section class="grid grid-cols-2 gap-10">
     <div
       v-for="project in data?.viewer.repositories.nodes"

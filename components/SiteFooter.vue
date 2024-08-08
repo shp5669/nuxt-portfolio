@@ -2,27 +2,22 @@
 const links = [
   {
     name: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/shp5669",
     icon: "entypo-social:github-with-circle",
   },
   {
-    name: "Twitter",
-    href: "https://twitter.com",
-    icon: "entypo-social:twitter",
-  },
-  {
     name: "Facebook",
-    href: "https://facebook.com",
+    href: "https://www.facebook.com/shp5669",
     icon: "entypo-social:facebook",
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com",
+    href: "https://www.linkedin.com/in/sean-park-73816a16b/",
     icon: "entypo-social:linkedin-with-circle",
   },
   {
     name: "Instagram",
-    href: "https://instagram.com",
+    href: "https://www.instagram.com/seaniblue/?hl=en",
     icon: "entypo-social:instagram",
   },
 ];
