@@ -12,6 +12,10 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
     </p>
   </section>
   <section class="flex flex-col md:flex-row">
+    <img
+      src="~/assets/images/profile.webp"
+      class="w-full md:w-1/2 max-w-sm p-8 mx-auto md:mx-0 rounded-full"
+    />
     <div class="md:w-3/4">
       <h2 class="text-3xl font-bold mt-8">About Me</h2>
       <p class="text-lg py-4 text-gray-700">
@@ -29,10 +33,6 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
         developer.
       </p>
     </div>
-    <img
-      src="~/assets/images/profile.webp"
-      class="w-full md:w-1/2 max-w-sm p-8 mx-auto md:mx-0 rounded-full"
-    />
   </section>
 
   <section>
