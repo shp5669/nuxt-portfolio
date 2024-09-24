@@ -19,15 +19,15 @@ const { data: posts } = await useAsyncData("latest-posts", () =>
     <div class="md:w-3/4">
       <h2 class="text-3xl font-bold mt-8">About Me</h2>
       <p class="text-lg py-4 text-gray-700">
-        As a recent IT graduate from the University of Technology Sydney, I
-        specialize in front-end development with a focus on dynamic and
-        responsive web applications. My expertise includes HTML, CSS,
-        JavaScript, and frameworks like React and Vue, alongside back-end
-        technologies such as Django and .NET. I also have database skills in
-        MySQL and PostgreSQL.
+        🚀 Recent IT graduate with Distinction in Enterprise System Development
+        from the University of Technology Sydney. Eager to leverage my technical
+        expertise and problem-solving skills in dynamic software engineering
+        roles. Experienced in full-stack development with a strong foundation in
+        JavaScript, Python, Java, and modern frameworks like React.js, Vue.js,
+        and Express.js.
       </p>
       <p class="text-lg py-4 text-gray-700">
-        Outside of my professional pursuits, I enjoy reading, listening to
+        🌟 Outside of my professional pursuits, I enjoy reading, listening to
         music, and traveling. These activities provide relaxation and
         inspiration, fueling my creativity and curiosity in my work as a
         developer.
